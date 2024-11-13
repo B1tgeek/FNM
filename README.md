@@ -1,6 +1,6 @@
 # FNM
-<p>FNM(FNM‘s Not Movie)是提供集影片搜索、下载、刮削、管理、播放、拉片一条龙服务的软件，用户可将它部署在NAS、HTPC或其他安装了linux或支持docker的PC上。FNM系统是将实现HTPC全部基础功能，目的在于简化传统HTPC的复杂操作流程，降低用户的学习成本。使用FNM可以加简单高效的使用Jackett、Qbittorrent、Radarr、Sonarr、Jellyfin和Kodi等软件的功能。FNM使用Jackett作为资源索引器；Qbittorrent负责下载；Radarr/Sonarr用于自动化的搜索，并将搜索到的资源推送到下载器中；Jellyfin负责刮削下载好的影片，实现对影音库的管理；Kodi作为视频播放器，使用mpv作为Kodi解码的后端。<\p>
-人员分工
+FNM(FNM‘s Not Movie)是提供集影片搜索、下载、刮削、管理、播放、拉片一条龙服务的软件，用户可将它部署在NAS、HTPC或其他安装了linux或支持docker的PC上。FNM系统是将实现HTPC全部基础功能，目的在于简化传统HTPC的复杂操作流程，降低用户的学习成本。使用FNM可以加简单高效的使用Jackett、Qbittorrent、Radarr、Sonarr、Jellyfin和Kodi等软件的功能。FNM使用Jackett作为资源索引器；Qbittorrent负责下载；Radarr/Sonarr用于自动化的搜索，并将搜索到的资源推送到下载器中；Jellyfin负责刮削下载好的影片，实现对影音库的管理；Kodi作为视频播放器，使用mpv作为Kodi解码的后端。  
+人员分工  
 |王宇辰|项目经理|产品/技术经理（组长）||配置管理员（兼）|用户（兼）|
 |黄云泽|项目助理（兼）|系统架构师||配置管理经理（组长）|用户（兼）|
 |王苇河||UI设计师|测试工程师（兼）||用户（兼）|
@@ -12,6 +12,6 @@
 |李昊||后端研发工程师|测试工程师||用户（兼）|
 |白瑞锟||系统运维工程师|测试工程师||用户（兼）|
 |金虹逸|||测试工程师|配置管理员（兼）|用户（兼）|
-关键技术
-docker、c/c++、shell、html/css
-《软件项目综合实践》课程设计项目，仅供交流学习
+关键技术  
+docker、c/c++、shell、html/css  
+《软件项目综合实践》课程设计项目，仅供交流学习  
